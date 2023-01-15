@@ -1,0 +1,24 @@
+{
+  "name": "food-cli",
+  "version": "1.0.0",
+  "description": "CLI para consultar informações sobre diversos alimentos.",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --poll ./src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "Silvano Marques",
+  "devDependencies": {
+    "@types/inquirer": "^8.2.0",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.0",
+    "typescript": "^4.8.2"
+  }
+}
