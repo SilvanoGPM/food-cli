@@ -1,5 +1,10 @@
 <h1 align="center">Food CLI</h1>
 
+<p align="center">
+  <img src="./.github/logo.png" width=200 />
+</p>
+
+
 <p align="center">CLI para verificar informações sobre diversos tipos de alimentos</p>
 
 ## Tecnologias utilizadas 🚀

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { loadCategories, loadFoods } from "./data";
 import { InMemoryCategoryRepository } from "./repositories/category/in-memory-category-repository";
 import { InMemoryFoodRepository } from "./repositories/food/in-memory-food-repository";
