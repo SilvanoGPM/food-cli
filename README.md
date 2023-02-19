@@ -13,6 +13,13 @@
 - [Inquirer](https://www.npmjs.com/package/inquirer)
 - [Chalk](https://www.npmjs.com/package/chalk)
 
+## Como rodar? :wrench:
+
+1. Baixe este repositório
+2. Utilize o comando `npm install` para instalar as dependências.
+3. Utilize o comando `npm run build` para realizar o *build* do projeto.
+4. Utilize o comando `npm start` para iniciar o projeto.
+
 ## Agradecimentos ❤️
 
 - [Dados sobre os alimentos](https://github.com/raulfdm/taco-api)
