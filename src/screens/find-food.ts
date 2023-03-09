@@ -5,6 +5,7 @@ import { Food } from "../model/food";
 import { FoodExistsByName } from "../use-cases/food-exists-by-name";
 import { GetCategoryById } from "../use-cases/get-category-by-id";
 import { GetFoodsByName } from "../use-cases/get-foods-by-name";
+import { figlet } from '../services/figlet';
 
 interface Macro {
   quantity: number;
@@ -103,6 +104,12 @@ export class FindFood {
   public async run() {
     while (true) {
       console.clear();
+
+      figlet({
+        text: 'Food CLI',
+        font: 'Larry 3D',
+        format: (text) => chalk.redBright(text),
+      });
 
       const answers = await this.showPrompt();
 
